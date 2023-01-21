@@ -23,12 +23,12 @@ function Benefits() {
   return (
     <div className="w-full mb-28">
       <div class="flex mx-40 flex-col justify-center items-center">
-        <h1 className="font-poppins font-[400] text-[25px] ml-16 text-heading_decoration mb-16">
+        <h1 className="font-badScript font-[400] text-[25px] ml-16 text-heading_decoration mb-16">
           Boosting Your Collection
         </h1>
         <div class="max-w-7xl space-x-40 text-text flex flex-row items-center justify-center">
           {benefits.map((benefit, index) => (
-            <div class="flex flex-col space-y-6 items-center justify-center">
+            <div key={index} class="flex flex-col space-y-6 items-center justify-center">
               <Image
                 src={benefit.icon}
                 alt={benefit.name}

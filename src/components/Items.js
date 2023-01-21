@@ -13,9 +13,14 @@ function Items() {
   return (
     <div className="w-full mb-28">
       <div class="max-w-7xl mx-40 flex flex-col">
-        <h1 className="font-poppins font-[400] text-[25px] text-heading_decoration text-left mb-16">
-          Boosting Your Collection
-        </h1>
+        <article class="flex flex-col mb-8">
+          <h1 className="font-badScript font-[400] text-[25px] text-heading_decoration">
+            Collect Now
+          </h1>
+          <p className="text-heading font-raleway text-[26px] font-bold">
+            Similar Items
+          </p>
+        </article>
         <div class="max-w-7xl space-x-14 text-text flex flex-row items-center justify-evenly">
           {items.map((item, index) => (
             <Link
