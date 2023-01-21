@@ -57,13 +57,16 @@ function Jumbotron() {
             </span>
           </div>
 
-          <Image
-            src="/hero_image.png"
-            width={596}
-            height={690}
-            alt="Hero's Image"
-            className="rounded-[60px] z-10"
-          />
+          <span className="flex flex-col relative">
+            <Image
+              src="/hero_image.png"
+              width={596}
+              height={690}
+              alt="Hero's Image"
+              className="rounded-[60px] z-10"
+            />
+            <span className="bg-[#194F9B] absolute -bottom-4 left-3 z-10 w-[510px] h-[57.27px] blur-[50px] rounded-full opacity-[0.5]"></span>
+          </span>
         </div>
 
         <Image

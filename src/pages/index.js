@@ -1,4 +1,4 @@
-import { Jumbotron, Navbar } from "@/components";
+import { Benefits, Items, Jumbotron, Navbar } from "@/components";
 import Head from "next/head";
 
 export default function Home() {
@@ -15,7 +15,11 @@ export default function Home() {
       </Head>
       <main className="flex font-poppins bg-background">
         <Navbar />
-        <Jumbotron />
+        <div class="flex flex-col">
+          <Jumbotron />
+          <Benefits />
+          <Items />
+        </div>
       </main>
     </>
   );

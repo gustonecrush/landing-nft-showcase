@@ -18,6 +18,7 @@ module.exports = {
         text_btn_primary: "#FAFAFA",
         btn_secondary: "#F9C85A",
         text_btn_secondary: "#564318",
+        heading_decoration: "#F2418F",
       },
     },
   },
