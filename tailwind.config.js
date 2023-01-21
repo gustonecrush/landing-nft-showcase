@@ -11,7 +11,7 @@ module.exports = {
         background: "#090811",
         text: "#B6B1DE",
         heading: "#FFFFFF",
-        sub_heading: "#sFEFCFD",
+        sub_heading: "#FEFCFD",
         text_label: "#515151",
         label: "#C7FA76",
         btn_primary: "#2D1959",

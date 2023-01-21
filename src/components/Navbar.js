@@ -12,7 +12,7 @@ const menus = [
 
 function Navbar() {
   return (
-    <div className="w-full font-raleway">
+    <div className="w-full font-raleway fixed z-40 bg-background">
       <div className="max-w-7xl mx-auto py-8 px-20 flex justify-between items-center">
         <Image
           src="/logo_nft_showcase.png"
