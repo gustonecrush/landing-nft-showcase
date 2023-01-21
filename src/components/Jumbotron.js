@@ -1,8 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Jumbotron() {
+  useEffect(() => {
+    AOS.init({
+      delay: 400,
+      duration: 800,
+    });
+  });
+
   return (
     <div class="w-full relative z-20">
       <div className="bg-background text-red-300 mt-[25vh] pb-52">
@@ -64,6 +74,8 @@ function Jumbotron() {
               height={690}
               alt="Hero's Image"
               className="rounded-[60px] z-10"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
             />
             <span className="bg-[#194F9B] absolute -bottom-4 left-3 z-10 w-[510px] h-[57.27px] blur-[50px] rounded-full opacity-[0.5]"></span>
           </span>
