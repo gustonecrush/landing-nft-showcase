@@ -14,12 +14,14 @@ function Navbar() {
   return (
     <div className="w-full font-raleway fixed z-40 bg-background">
       <div className="max-w-7xl mx-auto py-8 px-20 flex justify-between items-center">
-        <Image
-          src="/logo_nft_showcase.png"
-          width={150}
-          height={50}
-          alt="NFT Showcase's Logo"
-        />
+        <Link href="">
+          <Image
+            src="/logo_nft_showcase.png"
+            width={150}
+            height={50}
+            alt="NFT Showcase's Logo"
+          />
+        </Link>
 
         <div className="flex items-center space-x-12">
           <ul className="list-none flex font-[400] space-x-12 items-center">

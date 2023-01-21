@@ -25,7 +25,7 @@ function Jumbotron() {
                 <p>52</p>
               </span>
             </article>
-            <article className="flex flex-row items-center space-x-4">
+            <Link href="/" className="flex flex-row items-center space-x-4">
               <span className="rounded-full border-text border p-2">
                 <Image
                   src="/user.png"
@@ -44,12 +44,12 @@ function Jumbotron() {
                   @farhantsyh
                 </p>
               </article>
-            </article>
+            </Link>
 
             <span className="flex flex-col relative">
               <Link
                 href="/"
-                className="w-fit rounded-full bg-btn_secondary z-20 text-text_btn_secondary font-raleway font-bold text-[20.36px] py-[17px] px-16"
+                className="w-fit hover:scale-105 transition-all rounded-full bg-btn_secondary z-20 text-text_btn_secondary font-raleway font-bold text-[20.36px] py-[17px] px-16"
               >
                 Bid Now
               </Link>
@@ -74,7 +74,7 @@ function Jumbotron() {
           height={1406.97}
           width={934.22}
           alt="Hero's Decoration"
-          className="absolute right-0 top-60"
+          className="absolute right-0 top-60 animate-pulse"
         />
       </div>
     </div>
